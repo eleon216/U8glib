@@ -54,7 +54,7 @@
 #if ARDUINO < 100 
 #include <WProgram.h>
 #else 
-#include <Arduino.h> 
+#include "application.h" 
 #endif
 
 const byte DI   = 0;  // D0, pin 5  Data In

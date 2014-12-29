@@ -43,7 +43,7 @@
 #if ARDUINO < 100 
 #include <WProgram.h> 
 #else 
-#include <Arduino.h> 
+#include "application.h" 
 #endif
 
 void u8g_com_arduino_digital_write(u8g_t *u8g, uint8_t pin_index, uint8_t value)

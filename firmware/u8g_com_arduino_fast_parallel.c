@@ -66,7 +66,7 @@
 #include <wiring_private.h> 
 #include <pins_arduino.h> 
 #else 
-#include <Arduino.h> 
+#include "application.h" 
 #endif
 
 

@@ -41,7 +41,7 @@
 #if ARDUINO < 100 
 #include <WProgram.h>
 #else 
-#include <Arduino.h> 
+#include "application.h" 
 #endif
 
 void u8g_arduino_sw_spi_shift_out(uint8_t dataPin, uint8_t clockPin, uint8_t val)

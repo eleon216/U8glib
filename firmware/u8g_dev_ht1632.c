@@ -98,7 +98,7 @@ Usage:
 #if ARDUINO < 100
 #include <WProgram.h>
 #else
-#include <Arduino.h>
+#include "application.h"
 #endif
  
 //#define WR_PIN 3

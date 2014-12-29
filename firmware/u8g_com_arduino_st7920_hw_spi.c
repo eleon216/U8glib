@@ -45,7 +45,7 @@
 #include "pins_arduino.h"
 
 #else 
-#include <Arduino.h> 
+#include "application.h" 
 #include "wiring_private.h"
 #endif
 
