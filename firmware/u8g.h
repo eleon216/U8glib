@@ -43,7 +43,6 @@
 #define U8G_INTERRUPT_SAFE 1
 
 
-#include "application.h"
 #include <stddef.h>
 
 #ifdef __18CXX
