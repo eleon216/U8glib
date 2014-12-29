@@ -86,11 +86,8 @@ class U8GLIB : public Print
     
     
     /* implementation of the write interface to the print class */
-#if defined(ARDUINO) && ARDUINO >= 100
-    size_t write(uint8_t c) { tx += u8g_DrawGlyph(&u8g, tx, ty, c); return 1;}
-#else
+    //size_t write(uint8_t c) { tx += u8g_DrawGlyph(&u8g, tx, ty, c); return 1; }
     void write(uint8_t c) { tx += u8g_DrawGlyph(&u8g, tx, ty, c); }
-#endif
     
      /* screen rotation */
     void undoRotation(void) { u8g_UndoRotation(&u8g); }
