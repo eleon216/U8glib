@@ -1,7 +1,7 @@
 {
     "name": "U8glib",
-    "version": "0.0.2",
-    "author": "Fulvio Cusumano <fcusumano@gmail.com>",
+    "version": "0.0.3",
+    "author": "Eleon Sandor <eleon216@gmail.com>",
     "license": "BSD license, all text above must be included in any redistribution",
     "description": "U8glib library for SparkCore"
 }
